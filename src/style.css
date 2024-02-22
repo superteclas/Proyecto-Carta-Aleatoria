@@ -1,1 +1,48 @@
+/* estilos.css */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+
+.card {
+  width: 300px;
+  height: 440px;
+  border-radius: 15px;
+  background: white;
+  font-size: 5em;
+  position: relative;
+  margin: auto;
+}
+
+.top {
+  width: 300px;
+  height: 120px;
+}
+
+.number {
+  width: 300px;
+  height: 200px;
+  font-size: 2em;
+}
+
+.bottom {
+  width: 300px;
+  height: 120px;
+}
+
+.paloarriba {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.numerocentro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.paloabajo {
+  margin-left: 170px;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
