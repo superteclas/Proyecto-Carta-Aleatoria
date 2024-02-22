@@ -7,7 +7,21 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //Declaro las variables//
-  let numbers = ["A","2","3","4","5","6","7","8","9","10","J","Q","K" ];
+  let numbers = [
+    "A",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "J",
+    "Q",
+    "K"
+  ];
   let palos = [1, 2, 3, 4];
   let iconos = ["♠️", "♥️", "♦️", "♣️"];
 
@@ -18,7 +32,7 @@ window.onload = function() {
     let randomNumeroIndex = Math.floor(Math.random() * numbers.length);
 
     //Indico los indices//
-    let randomPalo = palos[randomPaloIndex] - 1git; //pregunta para mentoria, no se porque me funciona el -1
+    let randomPalo = palos[randomPaloIndex] - 1; //pregunta para mentoria, no se porque me funciona el -1
     let randomNumero = numbers[randomNumeroIndex];
     let iconoPalo = iconos[randomPalo];
 

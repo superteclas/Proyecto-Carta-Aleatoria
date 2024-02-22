@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 
-.top {
+.top .bottom {
   width: 300px;
   height: 120px;
 }
@@ -23,11 +23,6 @@ body {
   width: 300px;
   height: 200px;
   font-size: 2em;
-}
-
-.bottom {
-  width: 300px;
-  height: 120px;
 }
 
 .paloarriba {
