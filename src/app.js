@@ -32,7 +32,7 @@ window.onload = function() {
     let randomNumeroIndex = Math.floor(Math.random() * numbers.length);
 
     //Indico los indices//
-    let randomPalo = palos[randomPaloIndex]; //pregunta para mentoria, no se porque me funciona el -1
+    let randomPalo = palos[randomPaloIndex] - 1; //pregunta para mentoria, no se porque me funciona el -1
     let randomNumero = numbers[randomNumeroIndex];
     let iconoPalo = iconos[randomPalo];
 
